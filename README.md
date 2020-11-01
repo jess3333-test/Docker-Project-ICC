@@ -2,7 +2,7 @@
 Web project combining Php , mySql and phpMyAdmin
 
 
-Pour exécuter ce docker , veuillez vous rendre à la racine de ce dossier , éxécutez la commande docker-compose up , veuillez attendre que le message "MySQL init process done. Ready for start up " apparaisse ( cela peut prendre 2-4 minutes).
+Pour exécuter ce docker , veuillez vous rendre à la racine de ce dossier , exécutez la commande docker-compose up , veuillez attendre que le message "MySQL init process done. Ready for start up " apparaisse ( cela peut prendre 2-4 minutes).
 Ensuite vous pourrez accéder à la page web sous localhost:8001 où vous pourrez voir les éléments présents dans la base de données et vous pourrez ajouter des éléments ou en supprimer en remplissant
 les différents formulaires.
 Ou vous pouvez accéder à l'interface phpmyadmin sous localhost:8002 avec l'utilisateur "userdb" et le mot de passe "userdb" , dans dockerProjet vous trouverez la table Personne qui contient les données qui ont été pré-insérées lors de l'installation du docker ou d'autres données qui ont été rajoutées via la page web.
