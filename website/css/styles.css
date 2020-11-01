@@ -1,0 +1,82 @@
+table {
+border-collapse: collapse;
+width: 100%;
+color: #588c7e;
+font-family: monospace;
+font-size: 25px;
+text-align: left;
+}
+th {
+background-color: #588c7e;
+color: white;
+}
+tr:nth-child(even) {background-color: #f2f2f2}
+
+.container {
+ 
+  display: table;
+}
+
+.container-left {
+  width: 60%;
+  
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.container-right {
+  width: 40%;
+ 
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.the-span {
+  background: #fff;
+    height: 15px;
+    padding: 15px 0;
+    width: 300px;
+    border-radius: 0;
+    display: block;
+    text-align: center;
+    font-family: Arial;
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #282828;
+    border: 1px solid #2b353e;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+#form {
+  max-width: 700px;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.form-field {
+  display: flex;
+  margin: 0 0 1rem 0;
+}
+label, input {
+  width: 70%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+  font-size: 1.1rem;
+}
+label {
+  text-align: right;
+  width: 30%;
+}
+input {
+  border: 2px solid #aaa;
+  border-radius: 2px;
+}
