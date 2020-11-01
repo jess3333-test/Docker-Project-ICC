@@ -13,5 +13,5 @@ Ou vous pouvez accéder à l'interface phpmyadmin sous localhost:8002 avec l'uti
 
 Pour arrêter le docker , ouvrez un autre terminal et tapez docker-compose down
 
-Si vous relancez le docker par la suite, vous verrez que la base de données contient toujours les changements que vous avez fait. Car dans le docker-compose un volume qu'on qualifiera de "persistent" stocke les ajouts et suppressions de la base de données. Vu qu'on devait créer un environnement de production je me disais qu'il serait nécessaire de pouvoir garder les modifications faites sur la base.
+Si vous relancez le docker par la suite, vous verrez que la base de données contient toujours les changements que vous avez fait. Car dans le docker-compose un volume qu'on qualifiera de "persistant" stocke les ajouts et suppressions de la base de données. Vu qu'on devait créer un environnement de production je me disais qu'il serait nécessaire de pouvoir garder les modifications faites sur la base.
 
